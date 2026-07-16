@@ -3,7 +3,7 @@
 library(tidyverse)
 
 # ------- Load Dataset into R ---------
-my_data <- read.csv("C:/Users/mishop/Downloads/SuperMarket Analysis.csv")
+my_data <- read.csv(file.choose())
 
 # ----- Exploration DataAnalysis in R using tidyverse and R(Base) functions ------
 
